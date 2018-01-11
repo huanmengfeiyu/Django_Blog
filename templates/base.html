@@ -1,8 +1,19 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{% block title %} Title {% endblock %} </title>
+
+<!--css-->
+    <link rel="stylesheet" href="{% static 'MyBlog/anythingslider.css' %}">
+    <link rel="stylesheet" href="{% static 'MyBlog/anythingslider_blog.css' %}">
+    <link rel="stylesheet" href="{% static 'MyBlog/colorbox.css' %}">
+    <link rel="stylesheet" href="{% static 'MyBlog/stylesheet.css' %}">
+
+<!--js-->
+{#    <script src="{% static 'blog/js/modernizr.custom.js' %}"></script>#}
 </head>
 <body>
 
